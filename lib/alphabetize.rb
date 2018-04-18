@@ -1,9 +1,9 @@
 def alphabetize(arr)
- ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+ esperanto = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
  
  arr.sort_by do |word|
    word[0].each do |alphabet|
-     ESPERANTO_ALPHABET.index(alphabet)
+     esperanto.index(alphabet)
    end
  end
 end
