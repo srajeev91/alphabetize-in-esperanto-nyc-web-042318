@@ -1,9 +1,9 @@
-ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+esperanto = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 
 def alphabetize(arr)
-  arr.sort_by do |phrase|
-    phrase.split("").map do |character|
-      ESPERANTO_ALPHABET.index(character)
+  arr.sort_by do |word|
+    word.split("").each do |character|
+      esperanto.index(character)
     end
   end
 end
