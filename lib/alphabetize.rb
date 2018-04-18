@@ -1,5 +1,7 @@
+esperanto = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+
 def alphabetize(arr)
- esperanto = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+ 
  alphabet_array = esperanto.split(" ")
  
  arr.sort_by do |word|
