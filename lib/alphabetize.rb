@@ -1,7 +1,7 @@
-
+ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 
 def alphabetize(arr)
-  ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  alphabet_array = ESPERANTO_ALPHABET.split(" ")
   arr.sort_by do |word|
     word.split("").each do |character|
       ESPERANTO_ALPHABET.index(character)
