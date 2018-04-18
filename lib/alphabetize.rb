@@ -3,7 +3,6 @@ def alphabetize(arr)
  
  arr.sort_by do |word|
    word.each do |character|
-     
-   word.index(esperanto)
+     character.index(esperanto)
  end
 end
